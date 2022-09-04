@@ -1,0 +1,15 @@
+spec: shopify.apexlang
+generates:
+  ./src/generated.rs:
+    module: ../apex-codegen/src/rust/index.ts
+    visitorClass: RustBasic
+    config:
+      visibility:
+        _all: pub(crate)
+      derive:
+        _all:
+          - Clone
+          - Debug
+          - PartialEq
+          - serde::Serialize
+          - serde::Deserialize

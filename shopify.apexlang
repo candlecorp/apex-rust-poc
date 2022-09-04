@@ -1,0 +1,16 @@
+namespace "shopify-functions"
+
+type InputRecord {
+  id: u32
+  price: f32
+}
+
+type OutputRecord {
+  id: u32
+  price: f32
+  tax: f32
+}
+
+type Error {
+  message:string
+}
