@@ -8,7 +8,7 @@ Custom code generators can be created.  Referenced on line 4 of apex.yaml
 
 ## Step 1) Specify your input and output format.
 
-Edit the `shopify.apexlang` file to change the input and output format to your expected types.
+Edit the `types.apexlang` file to change the input and output format to your expected types.
 
 ## Step 2) Generate code automatically
 
