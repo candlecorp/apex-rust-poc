@@ -1,7 +1,7 @@
-spec: shopify.apexlang
+spec: types.apexlang
 generates:
   ./src/generated.rs:
-    module: ../apex-codegen/src/rust/index.ts
+    module: "@apexlang/codegen/rust"
     visitorClass: RustBasic
     config:
       visibility:

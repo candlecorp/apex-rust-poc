@@ -1,4 +1,4 @@
-namespace "shopify-functions"
+namespace "functions"
 
 type InputRecord {
   id: u32
