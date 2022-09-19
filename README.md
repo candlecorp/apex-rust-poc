@@ -1,4 +1,10 @@
 # Shopify Function project
+## Apexlang Docs
+https://apexlang.io
+
+## Apexlang Codegens
+https://github.com/apexlang/codegen
+Custom code generators can be created.  Referenced on line 4 of apex.yaml
 
 ## Step 1) Specify your input and output format.
 
